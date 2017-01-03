@@ -1,0 +1,76 @@
+//顶部样式
+.jx-top {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+
+  .nav-logo {
+    height: 3.5em;
+    padding: .4em;
+  }
+
+  .navbar-nav {
+    li {
+      a {
+        border-bottom: 3px solid transparent;
+        color: #aaa;
+        margin: 1em;
+        padding: 0;
+        &:hover, &:focus, &.active {
+          background-color: transparent;
+          border-bottom: 3px solid #269abc;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .navbar-form {
+    margin-top: 1em;
+    //margin-bottom: 0.7em;
+    input {
+      background: transparent;
+      color: #fff;
+      height: 2.2em;
+    }
+    .btn-info {
+      background-color: transparent;
+    }
+    a {
+      color: #fff;
+      margin-bottom: 0.2em;
+      padding: 0;
+      &:hover, &:focus, &.active {
+        color: #3AAAE1;
+        background-color: transparent;
+      }
+    }
+    span {
+      border-right: 2px solid #fff;
+      margin-right: 1em;
+      padding-right: 1em;
+    }
+  }
+  .dropdown {
+    .dropdown-menu {
+      background: rgba(0, 0, 0, 0.6);
+      min-width: 100px;
+      text-align: center;
+      a{
+        &:hover,&:focus{
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+
+    .navbar-nav{
+      .open{
+        a{
+          &:focus,&:hover{
+            color: #fff;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }

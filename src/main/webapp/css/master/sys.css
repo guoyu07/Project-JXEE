@@ -1,0 +1,78 @@
+body {
+  font-family: Microsoft Yahei, sans-serif; }
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, \\5B8B\4F53; }
+
+label {
+  margin-bottom: 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Microsoft Yahei, sans-serif; }
+
+.btn {
+  border-radius: 0; }
+
+.displayN {
+  display: none; }
+
+.table-bordered > tbody > tr > td {
+  line-height: 32px; }
+
+.jxjee-logo-img {
+  left: 50%;
+  margin-left: -135px;
+  margin-top: -171px;
+  position: absolute;
+  top: 50%; }
+
+.login-box {
+  left: 50%;
+  margin-left: -180px;
+  margin-top: -105px;
+  position: absolute;
+  top: 50%; }
+
+.index-mini-logo {
+  width: 230px; }
+
+.index-logo {
+  width: 200px; }
+
+.sidebar-menu .treeview-menu li a {
+  font-size: 12px; }
+
+.search-box-items {
+  margin: 15px; }
+  .search-box-items .btn {
+    border-radius: 0;
+    margin-left: 15px !important; }
+
+.search-kind {
+  margin: 15px; }
+
+.icheck label {
+  margin-bottom: 10px;
+  margin-right: 5px;
+  padding-left: 0;
+  width: 100px; }
+
+.sys-article-table {
+  padding-left: 2em; }
+
+/*# sourceMappingURL=sys.css.map */

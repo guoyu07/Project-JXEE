@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+//-- 1.colors
+
+//命名规则是样式，所以采用小写的CLASS的方式
+//颜色使用 light dark 来表示深浅
+//使用darken lighten 来改变相应的颜色深浅度
+//使用SCSS内置颜色函数
+
+//blue
+
+$skyblue:      #00c0ef;
+$hover-blue:   #60b8f4;
+$lightblue:    #3aaae1;
+$deepbule:     #269abc;
+$darkblue:     #3c8dbc;
+
+//green
+$daekgreen: #00a65a;
+
+//yellow
+$yellow:#f39c12;
+
+//red
+$lightred: #f56954;
+$red:#f00;
+
+//dark & white
+$dark:#000;
+$dark-dark:#242735;
+$dark-light:#333;
+
+//gray
+$gray:#555;
+$gray-dark:#ccc;
+$gray-light:#f1f1f1;
+$white:#fff;
+
+
+$color0: #3c8dbc;
+$color1: #00a65a;
+$color2: #f39c12;
+$color3: #00c0ef;
+$color4: #f56954;
+
+$font: Arial, "微软雅黑", "华文细黑", STHeiti-Light, STHeiti, "宋体";
